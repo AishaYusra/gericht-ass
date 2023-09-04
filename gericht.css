@@ -1,0 +1,1090 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: Cormorant Upright;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: .64px;
+    text-align: center;
+    color: white;
+    padding-left: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .64px;
+    color: white;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 175%;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 80px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    display: none;
+}
+
+nav button .svg2 path {
+    fill: #DCCA87;
+}
+
+.herosection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: black;
+    color: #ffffff;
+    margin-top: -50px;
+}
+
+.hashtag1 {
+    color: #ffffff;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 130px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: .64px;
+}
+
+.herosection article h2 {
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+.herosection article h3 {
+    font-family: Cormorant Upright;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+}
+
+.herosection article p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+.herosection button,
+.top button,
+.gallerypage button,
+.findus button {
+    font-family: Cormorant Upright;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: left;
+    border: none;
+    padding: 10px 18px 10px 18px;
+    background-color: #DCCA87;
+    cursor: pointer;
+}
+
+.herosection button:hover,
+.top button:hover,
+.gallerypage button:hover,
+.findus button:hover {
+    background-color: #ddc058;
+}
+
+.slider {
+    position: relative;
+    top: 60px;
+    left: 100%;
+}
+
+
+.scroll {
+    margin-top: 450px;
+    margin-right: 25px;
+}
+
+.top {
+    background-image: url(./aboutbg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.top img {
+    display: flex;
+    align-items: center;
+    margin-left: -155px;
+    z-index: 2;
+    height: 400px;
+}
+
+.aboutus h2,
+.ourhistory h2 {
+    font-family: Cormorant Upright;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #DCCA87;
+    margin-bottom: -10px;
+}
+
+.aboutus svg {
+    transform: rotate(-180deg);
+}
+
+
+.aboutus p,
+.ourhistory p {
+    color: #AAAAAA;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+.aboutus,
+.aboutus h2,
+.aboutus p {
+    text-align: right;
+}
+
+.ourhistory {
+    padding-left: 70px;
+}
+
+.special {
+    color: white;
+    margin-top: 0px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h2 {
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: 0;
+    color: white;
+}
+
+#special {
+    font-family: Cormorant Upright;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+    margin-top: 0;
+}
+
+.wine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.wine img {
+    margin-bottom: -50px;
+    margin-left: 30px;
+}
+
+.wine li {
+    list-style-type: none;
+    color: #DCCA87;
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+.wine p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    margin-top: 0;
+}
+
+.wine h3 {
+    font-family: Cormorant Upright;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.wine svg {
+    margin-left: 150px;
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+
+.wine h6 {
+    font-size: 16px;
+    font-family: Cormorant Upright;
+    margin-left: 300px;
+    margin-top: -43px;
+}
+
+.wine p {
+    margin-top: -30px;
+}
+
+
+.menubutton {
+    font-family: Cormorant Upright;
+    background-color: #DCCA87;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: left;
+    border: none;
+    padding: 10px 18px 10px 18px;
+    position: absolute;
+    left: 48%;
+    cursor: pointer;
+}
+
+.menubutton:hover {
+    background-color: #ddc058;
+}
+
+.chef {
+    background-image: url(./aboutbg.png);
+    height: 100vh;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chefsword {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 50px;
+    margin-right: -40px;
+}
+
+.chef h5 {
+    font-family: Cormorant Upright;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.chef h1 {
+    font-family: Cormorant Upright;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #DCCA87;
+}
+
+.chef p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+.chef h4 {
+    margin-bottom: 0;
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+}
+
+.chef h6 {
+    margin-top: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+@font-face {
+    font-family: "Bestermind";
+    src: url(./BestermindRegular.ttf)format('truetype');
+}
+
+.chef h3 {
+    font-family: Bestermind;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 83px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: hsl(0, 0%, 67%);
+}
+
+.video {
+    background-image: url(./aboutbg.png);
+}
+
+.video img {
+    width: 100%;
+    height: 100vh;
+}
+
+.laurelpage {
+    background-image: url(./aboutbg.png);
+    color: white;
+    margin-top: 0;
+}
+
+.awards {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awardslist {
+    margin-right: 30px;
+    margin-top: -100px;
+}
+
+.laurelpage ul {
+    list-style-type: none;
+}
+
+
+.laurelpage ul img {
+    width: 55px;
+    height: 55px;
+}
+
+.awards li h4 {
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+    margin-bottom: 0;
+}
+
+.awards li p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    margin-top: 0;
+}
+
+.numtwo,
+.numfive,
+.numone,
+.numthree {
+    margin-top: -38px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+}
+
+.listone,
+.listtwo {
+    display: flex;
+}
+
+.img2,
+.img5 {
+    margin-left: -40px;
+}
+
+.img1,
+.img3 {
+    margin-left: 30px;
+}
+
+.img6 {
+    margin-left: 50px;
+    margin-top: -100px;
+    height: 400px;
+    width: 300px;
+}
+
+.laurelpage li img {
+    width: 79px;
+    height: 79px;
+}
+
+.iconlaurel {
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.laurelpage h5 {
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.laurelpage h3 {
+    font-family: Cormorant Upright;
+    color: #DCCA87;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 83.2px;
+    letter-spacing: 0.04rem;
+}
+
+.gallerypage {
+    background-image: url(./aboutbg.png);
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: #AAAAAA;
+}
+
+.gallerytext {
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.gallerypage h5 {
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.gallerypage h2 {
+    font-family: Cormorant Upright;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #DCCA87;
+    margin-top: 0;
+}
+
+.gallerypage p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+.galleryphotos {
+    display: flex;
+    width: 200px;
+    height: 300px;
+}
+
+.findus {
+    background-image: url(./aboutbg.png);
+    height: 100vh;
+}
+
+.findus h3 {
+    font-family: Cormorant Upright;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.findus h1 {
+    font-family: Cormorant Upright;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+    margin-top: 0;
+}
+
+.findus p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+.findus h4 {
+    font-family: Cormorant Upright;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+    margin-bottom: 3px;
+}
+
+.findus h6 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    margin-top: 3px;
+}
+
+.text11 {
+    margin-bottom: 6px;
+}
+
+.text12 {
+    margin-top: 6px;
+}
+
+.findustext {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footertop {
+    background-color: #0C0C0C;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 1000px;
+    height: 300px;
+    z-index: 2;
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    border: 1px solid #dbcd99;
+}
+
+.footertop h3 {
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    margin-bottom: 0;
+}
+
+.footertop h2 {
+    font-family: Cormorant Upright;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 0;
+    color: #DCCA87;
+    margin-bottom: 0;
+}
+
+.footertop p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin-top: 0;
+}
+
+input {
+    width: 400px;
+    height: 35px;
+    background-color: #0C0C0C;
+    border: 1px solid #F5EFDB;
+    margin-right: 18px;
+}
+
+.footertop input::placeholder {
+    padding: 10px;
+    color: #AAAAAA;
+    font-family: Cormorant Upright;
+}
+
+.footertop button {
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 8px 15px 8px 15px;
+    background-color: #DCCA87;
+    cursor: pointer;
+    border: 1px solid #DCCA87;
+}
+
+.footertop button:hover {
+    background-color: #ddc058;
+}
+
+.centerfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.centerfooter img {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+footer {
+    background-image: url(./aboutbg.png);
+    height: 100vh;
+}
+
+.footerdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: -150px;
+    margin-left: 100px;
+}
+
+.contactfooter {
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.contactfooter h6 {
+    margin-top: 0;
+}
+
+.contactfooter p,
+.contactfooter h6,
+.footerright p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+}
+
+.contactfooter h4 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.footermid {
+    text-align: center;
+}
+
+.footermid h2 {
+    font-family: Cormorant Upright;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #DCCA87;
+    margin-bottom: 0;
+}
+
+.footermid {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin-top: 0;
+    color: #AAAAAA;
+}
+
+.footermid p {
+    margin-bottom: 0;
+}
+
+.copyright {
+    position: relative;
+    top: 260px;
+    right: 45%;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.footerright {
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.footerright h4 {
+    font-family: Cormorant Upright;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+}
+
+
+@media screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header h1 {
+        font-size: 60px;
+        margin-top: 0;
+        padding-left: 10px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    nav button {
+        display: inline;
+        width: 30px;
+        height: 30px;
+    }
+
+    .herosection {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 150px;
+        text-align: center;
+        padding: 20px 20px 20px;
+    }
+
+    .herosection article h2,
+    .herosection article h3,
+    .herosection article p {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .heroimage img {
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .hashtag1 {
+        margin-left: -320px;
+        margin-bottom: -150px;
+    }
+
+    .slider {
+        top: 450px;
+        left: 2%;
+    }
+
+    .scroll {
+        margin-top: -20px;
+        margin-right: -270px;
+        height: 30px;
+    }
+
+    .top {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .top img {
+        display: none;
+    }
+
+    .aboutus {
+        margin-top: 0;
+    }
+
+    .aboutus,
+    .ourhistory {
+        text-align: center;
+    }
+
+    .ourhistory {
+        padding: 0;
+    }
+
+    .aboutus h2,
+    .ourhistory h2 {
+        text-align: center;
+    }
+
+    .aboutus svg {
+        text-align: center;
+    }
+
+    .ourhistory svg {
+        text-align: center;
+    }
+
+    .aboutus p,
+    .ourhistory p {
+        text-align: center;
+    }
+
+    .wine {
+        flex-direction: column;
+    }
+
+    .wine img {
+        margin: 0;
+    }
+
+    .menubutton {
+        text-align: center;
+    }
+
+    .chef {
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+    }
+
+    .chefsword {
+        margin: 0;
+        align-items: center;
+    }
+
+    .chef p {
+        text-align: center;
+    }
+
+    .video img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .laurelpage {
+        align-items: center;
+        width: 100%;
+    }
+
+    .awards {
+        flex-direction: column;
+
+    }
+
+    .awardslist {
+        margin: 0;
+        text-align: center
+    }
+
+    .img6 img {
+        margin: 0;
+    }
+
+    .laurelpage h5,
+    .laurelpage h3 {
+        text-align: center;
+    }
+
+    .numtwo,
+    .numfive,
+    .numone,
+    .numthree {
+        margin-top: -38px;
+        margin-bottom: 20px;
+    }
+
+    .img2,
+    .img5 {
+        margin-left: 0;
+    }
+
+    .img1,
+    .img3 {
+        margin-left: 0;
+    }
+
+
+
+    .img6 {
+        margin: 0;
+    }
+
+    .gallerypage {
+        flex-direction: column;
+        margin-bottom: 200px;
+        height: 1650px;
+    }
+
+    .galleryphotos {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .gallerytext {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .gallerypage p {
+        text-align: center;
+    }
+
+    .findustext {
+        flex-direction: column;
+    }
+
+    .findus h1,
+    .findus h3,
+    .findus p,
+    .findus h4,
+    .findus h6 {
+        text-align: center;
+    }
+
+    .findimg img {
+        margin-top: 20px;
+    }
+
+    .findus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footertop {
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .footertop button {
+        margin: 30px;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    .footerdown {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .copyright {
+        top: 0;
+        right: 0;
+    }
+}
